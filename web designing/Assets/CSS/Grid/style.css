@@ -17,7 +17,11 @@ header {
 }
 
 main {
+
     height: 80vh;
+
+    height: 70vh;
+
     width: 100%;
     background-color: #66ccff; 
 }
@@ -32,15 +36,12 @@ section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    align-content: center;
-    /* align-content */
+    align-items: center;
     gap: 10px; 
-    
 }
 
 .col {
- 
-    margin-top: 80px ;
+
     height: 10vh;
     width: 10vw;
     background-color: #006851;
