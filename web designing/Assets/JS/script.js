@@ -1,26 +1,10 @@
 
+let Name = prompt("Enter your name:");
+let fatherName = prompt("Enter your father's name:");
+let age = prompt("Enter your age:");
+let qualification = prompt("Enter your qualification:");
 
-let enteryourname = 88;
-let requiredage = 18;
-
-
-if (enteryourname > requiredage) {
-    console.log("you can drive")
-}
-else {
-    console.log("you cannot drive")
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+document.write("Name: " + Name + "<br>");
+document.write("Father's Name: " + fatherName + "<br>");
+document.write("Age: " + age + "<br>");
+document.write("Qualification: " + qualification + "<br>");
