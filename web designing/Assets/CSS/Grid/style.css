@@ -17,11 +17,15 @@ header {
 }
 
 main {
+<<<<<<< HEAD
+    height: 70vh;
+=======
 
     height: 80vh;
 
     height: 70vh;
 
+>>>>>>> 488875117ffbe3fea9d01f4e6199efb0f39819b3
     width: 100%;
     background-color: #66ccff; 
 }
@@ -41,7 +45,10 @@ section {
 }
 
 .col {
+<<<<<<< HEAD
+=======
 
+>>>>>>> 488875117ffbe3fea9d01f4e6199efb0f39819b3
     height: 10vh;
     width: 10vw;
     background-color: #006851;
