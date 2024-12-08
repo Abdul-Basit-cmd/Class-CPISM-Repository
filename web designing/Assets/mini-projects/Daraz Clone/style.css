@@ -4,7 +4,7 @@
     box-sizing: border-box;
     color: black;
     font-family: sans-serif;
-
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -53,7 +53,6 @@ input {
     font-size: 1rem;
 }
 
-
 .magnifying-icon {
     margin-top: 1px;
     position: relative;
@@ -84,82 +83,162 @@ input {
     object-fit: contain;
 }
 
-
-.hero-section {
+.hero-section-main {
     background-color: #f5f5f5;
-    width: 100%;
-    /* Full width of the viewport */
+    width: 100vw;
     height: 60vh;
-    /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-main-container {
+    width: 90%;
+    height: 100%;
+}
+
+.hero-section-1 {
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* Centers the container horizontally */
     align-items: center;
-    /* Centers the container vertically */
     overflow: hidden;
-    /* Prevents overflow */
     position: relative;
 }
 
-.image-container {
-    width: 90%;
-    /* The container will take up 80% of the screen width */
+.image-container-1 {
+    width: 80%;
     height: 100%;
-    /* Full height of the hero section */
     display: flex;
-    /* Display images in a row */
     position: relative;
 }
 
-.image-container img {
+.image-container-1 img {
     width: 100%;
-    /* Each image takes the full width of the container */
     height: 100%;
-    /* The images fill the full height of the container */
-    object-fit: cover;
-    /* Ensures the images cover the container without distortion */
+    object-fit: contain;
     position: absolute;
-    /* Position images on top of each other */
     opacity: 0;
-    /* Start with images hidden */
     animation: fadeInOut 25s infinite;
-    /* Loop the fade-in/out effect */
 }
 
-.image-container img:nth-child(1) {
+.image-container-1 img:nth-child(1) {
     animation-delay: 0s;
 }
 
-.image-container img:nth-child(2) {
+.image-container-1 img:nth-child(2) {
     animation-delay: 5s;
 }
 
-.image-container img:nth-child(3) {
+.image-container-1 img:nth-child(3) {
     animation-delay: 10s;
 }
 
-.image-container img:nth-child(4) {
+.image-container-1 img:nth-child(4) {
     animation-delay: 15s;
 }
 
-.image-container img:nth-child(5) {
+.image-container-1 img:nth-child(5) {
     animation-delay: 20s;
 }
 
 @keyframes fadeInOut {
-
     0%,
     20% {
         opacity: 1;
-        /* Show image at the start */
     }
 
     25%,
     95% {
         opacity: 0;
-        /* Hide image after it shows */
     }
+}
+
+.hero-section-2 {
+    background-color: antiquewhite;
+    height: 60vh;
+    width: 20vw;
+}
+
+.h-sec2-image-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h-sec2-image-container-1 p {
+    font-size: 0.85rem;
+}
+
+.h-sec2-image-container-1 img {
+    height: 10vh;
+    width: auto;
+}
+
+.h-sec2-image-container-2 {
+    padding: 15px 0px 0px 20px;
+    background-image: url('./images/herosection-images/img12.png');
+    height: 30vh;
+    width: 25vw;
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.h-sec2-image-container-2 p {
+    font-size: 0.85rem;
+    color: white;
+    font-weight: bold;
+}
+
+.h-sec2-image-container-2 img {
+    height: 8vh;
+    width: 4vw;
+}
+
+.h-sec2-image-container-2 .divvv {
+    position: relative;
+    top: 10px;
+}
+
+.h-sec2-image-container-2 span {
+    position: relative;
+    left: 55px;
+    bottom: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 0.75rem;
+}
+
+.h-sec2-image-container-3-images {
+    padding: 4px;
+    display: flex;
+}
+
+.h-sec2-image-container-3 .img1 {
+    height: 15vh;
+    width: 15vw;
+}
+
+.h-sec2-image-container-3 .img2 {
+    height: 5vh;
+    width: 9vw;
+    margin-left: 15px;
+}
+
+.h-sec2-image-container-3 .img3 {
+    height: 5vh;
+    width: 9vw;
+    position: relative;
+    top: 40px;
+    right: 58px;
+}
+
+.h-sec2-image-container-3 p {
+    font-size: 0.95rem;
+    padding-left: 4px;
 }
 
 .-h3 {
@@ -175,7 +254,6 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .container1 {
@@ -192,7 +270,6 @@ input {
     border-bottom: 0.25px solid grey;
 }
 
-
 .sec1-p1 {
     font-size: 0.85rem;
     color: orangered;
@@ -205,7 +282,6 @@ input {
     color: orangered;
 }
 
-
 .sec1-boxes {
     margin-top: 10px;
     display: flex;
@@ -216,7 +292,6 @@ input {
 
 .detailing {
     padding: 10px;
-
 }
 
 .sec1-box {
@@ -244,7 +319,6 @@ input {
 
 .p {
     font-size: 0.85rem;
-
 }
 
 .h4 {
@@ -256,7 +330,6 @@ input {
     color: #9e9e9e;
     text-decoration: line-through;
     font-size: 0.75rem;
-
 }
 
 .span2 {
@@ -277,7 +350,6 @@ input {
     justify-content: center;
     width: 90%;
     height: 100%;
-
 }
 
 .sec2-boxes {
@@ -315,7 +387,6 @@ input {
     justify-content: center;
     align-items: center;
     padding: 20px 0;
-    /* Spacing around the content */
 }
 
 .sec3-container {
@@ -327,37 +398,26 @@ input {
 .sec3-boxes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
-    /* Boxes auto-adjust within 90% */
     gap: 20px;
-    /* Gap between rows and columns */
     width: 100%;
-    /* Ensure the grid stretches across the container */
     justify-content: center;
-    /* Center align the grid */
 }
 
 .sec3-box {
     height: 45vh;
-    /* Fixed height for the box */
     display: flex;
     flex-direction: column;
-    /* Stack elements vertically */
     justify-content: flex-start;
     align-items: center;
     overflow: hidden;
-    /* Prevent any overflow issues */
 }
 
 .sec3-box img {
     width: 100%;
-    /* Full width of the box */
     height: 60%;
-    /* Half the height of the box */
     object-fit: cover;
-    /* Ensures the image fills the space fully */
     background-position: center;
     background-repeat: no-repeat;
-
 }
 
 .sec3-span2 {
@@ -384,7 +444,6 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .foot-container {
@@ -399,12 +458,10 @@ input {
     text-decoration: none;
 }
 
-
 .foot-sec1 {
     background-color: #f5f5f5;
     height: 70vh;
     width: 100%;
-    /* background-color: aqua; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -413,7 +470,6 @@ input {
 .foot-container1 {
     width: 90%;
     height: 100%;
-    /* border: 2px solid; */
     display: flex;
     flex-direction: row;
     gap: 50px;
@@ -439,10 +495,8 @@ a {
     text-decoration: underline;
 }
 
-
 .footsec1-images {
     position: relative;
-    /* Makes this container a positioning context */
 }
 
 .footsec1-images span {
@@ -455,7 +509,6 @@ a {
 }
 
 .footsec1-images div {
-
     position: absolute;
     left: 450px;
 }
@@ -468,30 +521,121 @@ a {
     align-items: center;
     background-color: white;
 }
-p{
+
+p {
     font-size: 0.95rem;
 }
 
 .foot-sec2-container1 {
     width: 30%;
     margin-left: 40px;
-    
 }
-.foot-sec2-container1 img{
+
+.foot-sec2-container1 img {
     height: 5vh;
     width: 4vw;
     background-position: center;
     background-size: contain;
     margin-top: 10px;
-
 }
 
 .foot-sec2-container2 {
     width: 20%;
     margin-left: 40px;
 }
-.foot-sec2-container2 img{
+
+.foot-sec2-container2 img {
     padding: 10px;
     margin-top: 10px;
+}
+
+.foot-sec3 {
+    min-height: 150vh; 
+    padding: 20px 0; 
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+
+.borderFooter {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-sec3 p {
+    font-size: 12.2px;
+    color: rgba(0, 0, 0, 0.671);
+    display: block;
+    line-height: calc(1em + 2px);
+    cursor: text;
+}
+
+.foot-sec3 h3 {
+    padding: 5px 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.549);
+}
+
+.textColumn1 {
+    height: inherit;
+    width: 220px;
+}
+
+.textColumn2 {
+    height: inherit;
+    width: 220px;
+}
+
+.textColumn3 {
+    height: inherit;
+    width: 220px;
+}
+
+.textColumn4 {
+    height: inherit;
+    width: 220px;
+}
+
+#bold {
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.608);
+}
+
+#title {
+    font-size: 11px;
+    padding: 11px 0 2px 0;
+    color: rgba(0, 0, 0, 0.899);
+}
+
+.last-foot {
+    background-color: rgb(255, 255, 255);
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-foot-container{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-foot1 a{
+    color: grey;
+   position: relative;
+   bottom: 10px;
+}
+
+.last-foot img{
+    height: 6vh;
+    width: 3vw;
 }
 
