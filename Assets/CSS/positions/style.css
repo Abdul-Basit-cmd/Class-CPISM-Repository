@@ -1,0 +1,42 @@
+div{
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid black; */
+    margin: 20px;
+
+}
+
+.a{
+    background-color: blue;
+}
+
+.b{
+    background-color: blueviolet;
+}
+
+.c{
+    background-color: aqua;
+}
+
+.d{
+    background-color: palevioletred;
+}
+.e{
+    background-color: greenyellow;
+}
+
+.f{
+    background-color: rebeccapurple;
+}
+
+.g{
+    background-color: darkorange;
+}
+
+.h{
+    background-color: darkslategray;
+}
+
+.i{
+    background-color: grey;
+}

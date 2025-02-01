@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FizzBuzz Game</title>
+  <link href="/web designing/Assets/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-4">FizzBuzz Game</h1>
+    <p class="text-center mb-4">Enter the iteration and termination values to play the game.</p>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+        <input type="number" id="iteration" class="form-control mb-3" placeholder="Start Number">
+        <input type="number" id="termination" class="form-control mb-3" placeholder="End Number">
+        <button class="btn btn-primary w-100" onclick="playFizzBuzz()">Start</button>
+      </div>
+    </div>
+
+    <div id="output" class="mt-4 text-center"></div>
+  </div>
+
+  <script src="fizzbuzz.js"></script>
+   
+</body>
+</html>

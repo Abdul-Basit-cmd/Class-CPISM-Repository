@@ -1,0 +1,107 @@
+{
+    "Web designing": [
+        {
+            "Name": "Designers",
+            "Price": "50k",
+            "Technology": "Html Css JavaScript",
+            "Pages": "2 to 3",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "Code Crafters",
+            "Price": "75k",
+            "Technology": "Html tailwind Css JavaScript ",
+            "Pages": "3 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "Pixel Pioneers",
+            "Price": "80k",
+            "Technology": "Html Css JavaScript React",
+            "Pages": "4 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ],
+
+    "Web Development": [
+        {
+            "Name": "developerventures",
+            "Price": "120k",
+            "Technology": " Node.js express.js",
+            "Pages": "2 to 3",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "Tech Hub",
+            "Price": "130k",
+            "Technology": "php laravel ",
+            "Pages": "3 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "developic",
+            "Price": "180k",
+            "Technology": "python Django",
+            "Pages": "4 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ],
+    "Digital Marketing": [
+        {
+            "Name": "Click Digital",
+            "Price": "120k",
+            "Technology": " Node.js express.js",
+            "Pages": "2 to 3",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "Digital Dynamo",
+            "Price": "130k",
+            "Technology": "php laravel ",
+            "Pages": "3 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "Adlabs",
+            "Price": "180k",
+            "Technology": "python Django",
+            "Pages": "4 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ],
+    "Mobile App Development": [
+        {
+            "Name": "developerventures",
+            "Price": "120k",
+            "Technology": " Node.js express.js",
+            "Pages": "2 to 3",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "Tech Hub",
+            "Price": "130k",
+            "Technology": "php laravel ",
+            "Pages": "3 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "Name": "developic",
+            "Price": "180k",
+            "Technology": "python Django",
+            "Pages": "4 to 5",
+            "Hosting": "13% charge extra",
+            "Description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ]
+}

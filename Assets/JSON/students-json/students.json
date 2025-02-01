@@ -1,0 +1,7 @@
+{
+    "Name" : "Basit",
+    "Age" : "18",
+    "Course" : "HDSE",
+    "phone" : ["032112345678", "032187654321"],
+    "Qualification" : ["Matric", "Intermadiate"]
+}

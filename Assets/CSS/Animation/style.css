@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide overflow to avoid scrollbars */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87ceeb; /* Light blue background (sky color) */
+  }
+  
+  .plane {
+    position: absolute;
+    width: 25vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-image: url(plane.png);
+    animation: fly 5s ease-in-out forwards infinite;
+  }
+  
+  @keyframes fly {
+    0% {
+      left: 0;
+      bottom: 0;
+    }
+    100% {
+      left: 100%;
+      bottom: 100%;
+    }
+  }
+  

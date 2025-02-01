@@ -1,0 +1,23 @@
+/* Basic Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #d9d9d9;
+}
